@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 html {
@@ -50,6 +51,7 @@ a {
   text-decoration: none;
   text-decoration-color: white;
 }
+
 
 a:hover {
   color: grey;
@@ -271,6 +273,7 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  flex-direction: row;
 }
 
 .about-details-container {
@@ -315,9 +318,9 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* SKILLS SECTION */
 
-#experience {
+#skills {
   position: relative;
 }
 
@@ -331,7 +334,12 @@ section {
 .experience-details-container {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  padding: auto;
+}
+
+.experience-details-container>div{
+  flex-direction: row;
 }
 
 .article-container {

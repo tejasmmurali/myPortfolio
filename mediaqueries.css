@@ -6,16 +6,19 @@
   .about-containers {
     flex-wrap: wrap;
   }
+  
+  
 }
 
 @media screen and (max-width: 1200px) {
+ 
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
   }
-  #experience,
+  #skills,
   .experience-details-container {
     margin-top: 2rem;
   }
